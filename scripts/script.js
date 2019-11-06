@@ -9,7 +9,6 @@ const updateDate = function() {
     let elements = document.getElementsByClassName("date");
     if (elements.length > 0) { // check of element result niet leeg is
         const element = elements[0];
-        console.log(element)
         element.innerHTML = new Date().getFormatDate();
     }
 }
